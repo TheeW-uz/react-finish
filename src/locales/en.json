@@ -1,0 +1,1219 @@
+{
+  "catalog": "Product catalog",
+  "search_placeholder": "Search in Alif Shop",
+  "login": "Login",
+  "favorites": "Favorites",
+  "avia_tickets": "Air tickets",
+  "cart": "Cart",
+  "navLinks": {
+    "Smartphones and Gadgets": {
+      "title": "Smartphones and Gadgets",
+      "dropdown": [
+        {
+          "title": "Smartphones and Phones",
+          "submenu": [
+            "Apple Smartphones",
+            "Techno Smartphone",
+            "Xiaomi Smartphones",
+            "Vivo Smartphones",
+            "Honor Smartphones",
+            "Samsung Smartphones"
+          ]
+        },
+        {
+          "title": "Accessories for Smartphones",
+          "submenu": [
+            "Case for Smartphone",
+            "Screen Protector for Iphone",
+            "Charger",
+            "Protector"
+          ]
+        },
+        {
+          "title": "Watch and Accessories",
+          "submenu": [
+            "Smartwatch",
+            "Handwatch",
+            "Smart ring",
+            "Fitness Tracker",
+            "Watch belts"
+          ]
+        },
+        {
+          "title": "Gadgets",
+          "submenu": [
+            "Virtual Reality Headsets",
+            "Smart Glasses",
+            "Tech for Blog"
+          ]
+        },
+        {
+          "title": "Techs",
+          "submenu": [
+            "Battery and Chargers",
+            "Trackers",
+            "Cables",
+            "Portable Batteries"
+          ]
+        },
+        {
+          "title": "Camera and Video Cameras",
+          "submenu": [
+            "Photo Papers",
+            "Cameras"
+          ]
+        }
+      ]
+    },
+    "Audio Technology": {
+      "title": "Audio Technology",
+      "dropdown": [
+        {
+          "title": "Headphones",
+          "submenu": [
+            "Wireless Headphones",
+            "Wired Headphones",
+            "Noise Cancelling",
+            "Gaming Headsets",
+            "In-Ear Earbuds"
+          ]
+        },
+        {
+          "title": "Speakers",
+          "submenu": [
+            "Portable Speakers",
+            "Bluetooth Speakers",
+            "Home Audio Systems",
+            "Smart Speakers"
+          ]
+        },
+        {
+          "title": "Professional Audio",
+          "submenu": [
+            "Studio Monitors",
+            "Microphones",
+            "Mixers",
+            "Audio Interfaces"
+          ]
+        },
+        {
+          "title": "Car Audio",
+          "submenu": [
+            "Car Speakers",
+            "Subwoofers",
+            "Amplifiers"
+          ]
+        },
+        {
+          "title": "Accessories",
+          "submenu": [
+            "Audio Cables",
+            "Adapters",
+            "Stands",
+            "Cases"
+          ]
+        }
+      ]
+    },
+    "Laptops & Computers": {
+      "title": "Laptops & Computers",
+      "dropdown": [
+        {
+          "title": "Laptops",
+          "submenu": [
+            "Gaming Laptops",
+            "Ultrabooks",
+            "2-in-1 Laptops",
+            "Business Laptops"
+          ]
+        },
+        {
+          "title": "Desktop PCs",
+          "submenu": [
+            "Gaming PCs",
+            "All-in-One PCs",
+            "Mini PCs"
+          ]
+        },
+        {
+          "title": "Components",
+          "submenu": [
+            "Processors (CPU)",
+            "Graphics Cards (GPU)",
+            "Motherboards",
+            "RAM",
+            "SSD & HDD"
+          ]
+        },
+        {
+          "title": "Peripherals",
+          "submenu": [
+            "Monitors",
+            "Keyboards",
+            "Mice",
+            "Webcams"
+          ]
+        },
+        {
+          "title": "Networking",
+          "submenu": [
+            "Routers",
+            "Modems",
+            "Wi-Fi Adapters"
+          ]
+        },
+        {
+          "title": "Storage",
+          "submenu": [
+            "External Drives",
+            "Flash Drives",
+            "NAS Systems"
+          ]
+        }
+      ]
+    },
+    "TVs & Projectors": {
+      "title": "TVs & Projectors",
+      "dropdown": [
+        {
+          "title": "Televisions",
+          "submenu": [
+            "Smart TVs",
+            "4K TVs",
+            "OLED TVs",
+            "QLED TVs",
+            "Android TVs"
+          ]
+        },
+        {
+          "title": "Projectors",
+          "submenu": [
+            "Home Theater Projectors",
+            "Portable Projectors",
+            "Mini Projectors"
+          ]
+        },
+        {
+          "title": "Streaming Devices",
+          "submenu": [
+            "TV Boxes",
+            "Chromecast",
+            "Media Players"
+          ]
+        },
+        {
+          "title": "TV Accessories",
+          "submenu": [
+            "Wall Mounts",
+            "Remote Controls",
+            "HDMI Cables"
+          ]
+        },
+        {
+          "title": "Home Cinema",
+          "submenu": [
+            "Soundbars",
+            "Home Theater Systems"
+          ]
+        }
+      ]
+    },
+    "Home Appliances": {
+      "title": "Home Appliances",
+      "dropdown": [
+        {
+          "title": "Large Appliances",
+          "submenu": [
+            "Refrigerators",
+            "Washing Machines",
+            "Dishwashers"
+          ]
+        },
+        {
+          "title": "Kitchen Appliances",
+          "submenu": [
+            "Microwaves",
+            "Ovens",
+            "Coffee Machines",
+            "Blenders"
+          ]
+        },
+        {
+          "title": "Small Appliances",
+          "submenu": [
+            "Irons",
+            "Kettles",
+            "Toasters"
+          ]
+        },
+        {
+          "title": "Cleaning",
+          "submenu": [
+            "Vacuum Cleaners",
+            "Robot Vacuums",
+            "Steam Cleaners"
+          ]
+        },
+        {
+          "title": "Climate",
+          "submenu": [
+            "Air Conditioners",
+            "Heaters",
+            "Air Purifiers",
+            "Humidifiers"
+          ]
+        }
+      ]
+    },
+    "Household Equipment": {
+      "title": "Household Equipment",
+      "dropdown": [
+        {
+          "title": "Kitchen Tools",
+          "submenu": [
+            "Cookware",
+            "Knives",
+            "Utensils",
+            "Cutting Boards"
+          ]
+        },
+        {
+          "title": "Cleaning Supplies",
+          "submenu": [
+            "Mops",
+            "Buckets",
+            "Brushes",
+            "Gloves"
+          ]
+        },
+        {
+          "title": "Storage & Organization",
+          "submenu": [
+            "Boxes",
+            "Shelves",
+            "Closet Organizers"
+          ]
+        },
+        {
+          "title": "Home Essentials",
+          "submenu": [
+            "Trash Bins",
+            "Laundry Baskets"
+          ]
+        }
+      ]
+    },
+    "Beauty, Health & Personal Care": {
+      "title": "Beauty, Health & Personal Care",
+      "dropdown": [
+        {
+          "title": "Makeup",
+          "submenu": [
+            "Foundation",
+            "Lipstick",
+            "Mascara",
+            "Eyeshadow"
+          ]
+        },
+        {
+          "title": "Skincare",
+          "submenu": [
+            "Cleansers",
+            "Moisturizers",
+            "Serums",
+            "Sunscreen"
+          ]
+        },
+        {
+          "title": "Haircare",
+          "submenu": [
+            "Shampoo",
+            "Conditioner",
+            "Hair Oil",
+            "Hair Styling"
+          ]
+        },
+        {
+          "title": "Personal Care",
+          "submenu": [
+            "Shavers",
+            "Trimmers",
+            "Hair Dryers"
+          ]
+        },
+        {
+          "title": "Health Devices",
+          "submenu": [
+            "Thermometers",
+            "Blood Pressure Monitors",
+            "Massagers"
+          ]
+        },
+        {
+          "title": "Fragrance",
+          "submenu": [
+            "Perfumes",
+            "Body Sprays"
+          ]
+        }
+      ]
+    },
+    "Smart Home": {
+      "title": "Smart Home",
+      "dropdown": [
+        {
+          "title": "Lighting",
+          "submenu": [
+            "Smart Bulbs",
+            "LED Strips",
+            "Smart Lamps"
+          ]
+        },
+        {
+          "title": "Security",
+          "submenu": [
+            "Smart Cameras",
+            "Video Doorbells",
+            "Alarm Systems"
+          ]
+        },
+        {
+          "title": "Control Systems",
+          "submenu": [
+            "Smart Hubs",
+            "Voice Assistants"
+          ]
+        },
+        {
+          "title": "Smart Plugs",
+          "submenu": [
+            "Wi-Fi Plugs",
+            "Energy Monitoring Plugs"
+          ]
+        },
+        {
+          "title": "Sensors",
+          "submenu": [
+            "Motion Sensors",
+            "Temperature Sensors"
+          ]
+        }
+      ]
+    },
+    "Gaming Technology": {
+      "title": "Gaming Technology",
+      "dropdown": [
+        {
+          "title": "Consoles",
+          "submenu": [
+            "PlayStation 5",
+            "Xbox Series X",
+            "Nintendo Switch"
+          ]
+        },
+        {
+          "title": "Gaming Accessories",
+          "submenu": [
+            "Controllers",
+            "Headsets",
+            "Charging Stations"
+          ]
+        },
+        {
+          "title": "PC Gaming",
+          "submenu": [
+            "Gaming Keyboards",
+            "Gaming Mice",
+            "Gaming Monitors"
+          ]
+        },
+        {
+          "title": "VR Gaming",
+          "submenu": [
+            "VR Headsets",
+            "VR Controllers"
+          ]
+        },
+        {
+          "title": "Games",
+          "submenu": [
+            "Digital Games",
+            "Game Discs"
+          ]
+        }
+      ]
+    },
+    "Sports & Outdoors": {
+      "title": "Sports & Outdoors",
+      "dropdown": [
+        {
+          "title": "Fitness Equipment",
+          "submenu": [
+            "Dumbbells",
+            "Treadmills",
+            "Exercise Bikes"
+          ]
+        },
+        {
+          "title": "Outdoor Gear",
+          "submenu": [
+            "Tents",
+            "Sleeping Bags",
+            "Camping Tools"
+          ]
+        },
+        {
+          "title": "Sports Equipment",
+          "submenu": [
+            "Football",
+            "Basketball",
+            "Tennis"
+          ]
+        },
+        {
+          "title": "Cycling",
+          "submenu": [
+            "Bicycles",
+            "Helmets",
+            "Accessories"
+          ]
+        },
+        {
+          "title": "Travel",
+          "submenu": [
+            "Suitcases",
+            "Travel Bags"
+          ]
+        }
+      ]
+    },
+    "Electronics": {
+      "title": "Electronics",
+      "dropdown": [
+        {
+          "title": "Mobile Accessories",
+          "submenu": [
+            "Chargers",
+            "Power Banks",
+            "Cables",
+            "Cases"
+          ]
+        },
+        {
+          "title": "Wearables",
+          "submenu": [
+            "Smartwatches",
+            "Fitness Trackers",
+            "Smart Rings"
+          ]
+        },
+        {
+          "title": "Batteries",
+          "submenu": [
+            "Rechargeable Batteries",
+            "Battery Chargers"
+          ]
+        },
+        {
+          "title": "Adapters",
+          "submenu": [
+            "USB Adapters",
+            "Converters"
+          ]
+        }
+      ]
+    },
+    "Kids & Toys": {
+      "title": "Kids & Toys",
+      "dropdown": [
+        {
+          "title": "Toys",
+          "submenu": [
+            "Educational Toys",
+            "RC Toys",
+            "Board Games"
+          ]
+        },
+        {
+          "title": "Baby Care",
+          "submenu": [
+            "Diapers",
+            "Baby Food",
+            "Strollers"
+          ]
+        },
+        {
+          "title": "Clothing",
+          "submenu": [
+            "Kids Clothing",
+            "Shoes"
+          ]
+        },
+        {
+          "title": "School Items",
+          "submenu": [
+            "Backpacks",
+            "Lunch Boxes"
+          ]
+        }
+      ]
+    },
+    "Construction Tools": {
+      "title": "Construction Tools",
+      "dropdown": [
+        {
+          "title": "Power Tools",
+          "submenu": [
+            "Drills",
+            "Angle Grinders",
+            "Saws"
+          ]
+        },
+        {
+          "title": "Hand Tools",
+          "submenu": [
+            "Hammers",
+            "Wrenches",
+            "Screwdrivers"
+          ]
+        },
+        {
+          "title": "Measuring Tools",
+          "submenu": [
+            "Laser Levels",
+            "Tape Measures"
+          ]
+        },
+        {
+          "title": "Heavy Equipment",
+          "submenu": [
+            "Generators",
+            "Air Compressors"
+          ]
+        }
+      ]
+    },
+    "Home Tools": {
+      "title": "Home Tools",
+      "dropdown": [
+        {
+          "title": "Repair Kits",
+          "submenu": [
+            "Tool Sets",
+            "Multi-tools"
+          ]
+        },
+        {
+          "title": "Electrical",
+          "submenu": [
+            "Testers",
+            "Soldering Tools"
+          ]
+        },
+        {
+          "title": "Fasteners",
+          "submenu": [
+            "Nails",
+            "Screws",
+            "Bolts"
+          ]
+        }
+      ]
+    },
+    "Home & Garden": {
+      "title": "Home & Garden",
+      "dropdown": [
+        {
+          "title": "Garden Tools",
+          "submenu": [
+            "Shovels",
+            "Rakes",
+            "Hoses"
+          ]
+        },
+        {
+          "title": "Plants",
+          "submenu": [
+            "Indoor Plants",
+            "Seeds",
+            "Fertilizers"
+          ]
+        },
+        {
+          "title": "Outdoor Furniture",
+          "submenu": [
+            "Garden Chairs",
+            "Tables"
+          ]
+        },
+        {
+          "title": "Decor",
+          "submenu": [
+            "Lights",
+            "Garden Decor"
+          ]
+        }
+      ]
+    },
+    "Food Products": {
+      "title": "Food Products",
+      "dropdown": [
+        {
+          "title": "Groceries",
+          "submenu": [
+            "Snacks",
+            "Beverages",
+            "Canned Food"
+          ]
+        },
+        {
+          "title": "Fresh Products",
+          "submenu": [
+            "Fruits",
+            "Vegetables",
+            "Meat"
+          ]
+        },
+        {
+          "title": "Bakery",
+          "submenu": [
+            "Bread",
+            "Pastries"
+          ]
+        },
+        {
+          "title": "Staples",
+          "submenu": [
+            "Rice",
+            "Flour",
+            "Oil"
+          ]
+        }
+      ]
+    },
+    "Office & Stationery": {
+      "title": "Office & Stationery",
+      "dropdown": [
+        {
+          "title": "Office Supplies",
+          "submenu": [
+            "Pens",
+            "Notebooks",
+            "Folders"
+          ]
+        },
+        {
+          "title": "School Supplies",
+          "submenu": [
+            "Backpacks",
+            "Art Supplies"
+          ]
+        },
+        {
+          "title": "Office Equipment",
+          "submenu": [
+            "Printers",
+            "Scanners",
+            "Calculators"
+          ]
+        }
+      ]
+    },
+    "Household Chemicals": {
+      "title": "Household Chemicals",
+      "dropdown": [
+        {
+          "title": "Cleaning",
+          "submenu": [
+            "Detergents",
+            "Disinfectants",
+            "Glass Cleaners"
+          ]
+        },
+        {
+          "title": "Laundry",
+          "submenu": [
+            "Washing Powder",
+            "Fabric Softener"
+          ]
+        },
+        {
+          "title": "Air Care",
+          "submenu": [
+            "Air Fresheners"
+          ]
+        }
+      ]
+    },
+    "Pet Supplies": {
+      "title": "Pet Supplies",
+      "dropdown": [
+        {
+          "title": "Pet Food",
+          "submenu": [
+            "Dog Food",
+            "Cat Food"
+          ]
+        },
+        {
+          "title": "Accessories",
+          "submenu": [
+            "Leashes",
+            "Bowls",
+            "Toys"
+          ]
+        },
+        {
+          "title": "Care",
+          "submenu": [
+            "Shampoos",
+            "Grooming"
+          ]
+        }
+      ]
+    },
+    "Books": {
+      "title": "Books",
+      "dropdown": [
+        {
+          "title": "Fiction",
+          "submenu": [
+            "Novels",
+            "Fantasy",
+            "Detective"
+          ]
+        },
+        {
+          "title": "Education",
+          "submenu": [
+            "Textbooks",
+            "Language Learning"
+          ]
+        },
+        {
+          "title": "Children",
+          "submenu": [
+            "Story Books",
+            "Coloring Books"
+          ]
+        },
+        {
+          "title": "Business",
+          "submenu": [
+            "Marketing",
+            "Finance"
+          ]
+        }
+      ]
+    }
+  },
+  "appleSection": {
+    "header": "Apple Days",
+    "seeAll": "See All",
+    "products": {
+      "iphone-17-pro": {
+        "title": "Apple iPhone 17 Pro 256 GB Smartphone",
+        "description": "Powerful cameras, fast processor and modern design."
+      },
+      "macbook-neo": {
+        "title": "Apple MacBook Neo A18 Laptop",
+        "description": "Light body and long battery life for ideal use."
+      },
+      "iphone-17-256": {
+        "title": "Apple iPhone 17 256 GB Smartphone",
+        "description": "Original phone, warranty that makes your purchase reliable."
+      },
+      "ipad-a16": {
+        "title": "Apple iPad A16 128 GB Tablet",
+        "description": "Colorful display and perfect for mobile work."
+      },
+      "iphone-17-pro-orange": {
+        "title": "Apple iPhone 17 Pro 256 GB Gold Smartphone",
+        "description": "Golden pro model with high capabilities."
+      },
+      "iphone-17e": {
+        "title": "Apple iPhone 17e 256 GB Smartphone",
+        "description": "Excellent design and affordable price combination."
+      },
+      "iphone-17-lite": {
+        "title": "Apple iPhone 17 Lite 128 GB Smartphone",
+        "description": "Best affordable variant of the latest Apple model."
+      },
+      "ipad-air": {
+        "title": "Apple iPad Air 10.9\" 64 GB Tablet",
+        "description": "Light tablet, perfect for reading and content."
+      },
+      "iphone-air": {
+        "title": "Apple iPhone Air 256 GB Smartphone",
+        "description": "Black color and flexible performance."
+      }
+    }
+  },
+  "popularSection": {
+    "header": "Popular Products",
+    "seeAll": "See All",
+    "products": {
+      "iphone-17-pro-max": {
+        "title": "Apple iPhone 17 Pro Max 256 GB Smartphone"
+      },
+      "xiaomi-redmi-14": {
+        "title": "Xiaomi Redmi Note 14 6/128 GB Smartphone"
+      },
+      "iphone-16-pro-max": {
+        "title": "Apple iPhone 16 Pro Max 256 GB Smartphone"
+      },
+      "samsung-galaxy-a17": {
+        "title": "Samsung Galaxy A17 6/128 GB Smartphone"
+      },
+      "iphone-16-pro": {
+        "title": "Apple iPhone 16 Pro 256 GB Smartphone"
+      },
+      "samsung-galaxy-s25-ultra": {
+        "title": "Samsung Galaxy S25 Ultra 5G Smartphone"
+      },
+      "lg-television-43": {
+        "title": "LG 43\" FHD Smart TV"
+      },
+      "car-wheels-kit": {
+        "title": "Car Wheels Kit R17"
+      },
+      "iphone-13-128": {
+        "title": "Apple iPhone 13 128 GB Smartphone"
+      },
+      "iphone-15-pro-max": {
+        "title": "Apple iPhone 15 Pro Max 256 GB Smartphone"
+      },
+      "iphone-15-pro": {
+        "title": "Apple iPhone 15 Pro 128 GB Smartphone"
+      },
+      "iphone-15": {
+        "title": "Apple iPhone 15 128 GB Smartphone"
+      },
+      "iphone-14-pro-max": {
+        "title": "Apple iPhone 14 Pro Max 256 GB Smartphone"
+      },
+      "iphone-14-pro": {
+        "title": "Apple iPhone 14 Pro 128 GB Smartphone"
+      },
+      "iphone-14": {
+        "title": "Apple iPhone 14 128 GB Smartphone"
+      },
+      "iphone-13-pro": {
+        "title": "Apple iPhone 13 Pro 128 GB Smartphone"
+      },
+      "iphone-13": {
+        "title": "Apple iPhone 13 256 GB Smartphone"
+      },
+      "iphone-12": {
+        "title": "Apple iPhone 12 128 GB Smartphone"
+      },
+      "iphone-11": {
+        "title": "Apple iPhone 11 128 GB Smartphone"
+      },
+      "ipad-pro-129": {
+        "title": "Apple iPad Pro 12.9\" M2 256 GB Tablet"
+      },
+      "ipad-pro-11": {
+        "title": "Apple iPad Pro 11\" M2 128 GB Tablet"
+      },
+      "ipad-air-5": {
+        "title": "Apple iPad Air 5 256 GB Tablet"
+      },
+      "ipad-10": {
+        "title": "Apple iPad 10th Gen 64 GB Tablet"
+      },
+      "ipad-mini-6": {
+        "title": "Apple iPad Mini 6 64 GB Tablet"
+      },
+      "macbook-pro-16": {
+        "title": "Apple MacBook Pro 16\" M3 Max Laptop"
+      },
+      "macbook-pro-14": {
+        "title": "Apple MacBook Pro 14\" M3 Pro Laptop"
+      },
+      "macbook-air-15": {
+        "title": "Apple MacBook Air 15\" M2 Laptop"
+      },
+      "macbook-air-13": {
+        "title": "Apple MacBook Air 13\" M2 Laptop"
+      },
+      "macbook-air-m1": {
+        "title": "Apple MacBook Air M1 256 GB Laptop"
+      },
+      "apple-watch-ultra-2": {
+        "title": "Apple Watch Ultra 2 Smart Watch"
+      },
+      "apple-watch-series-9-45": {
+        "title": "Apple Watch Series 9 45mm Smart Watch"
+      },
+      "apple-watch-series-9-41": {
+        "title": "Apple Watch Series 9 41mm Smart Watch"
+      },
+      "apple-watch-se-2": {
+        "title": "Apple Watch SE 2 44mm Smart Watch"
+      },
+      "airpods-pro-2": {
+        "title": "Apple AirPods Pro 2 Earphones"
+      },
+      "airpods-3": {
+        "title": "Apple AirPods 3 Earphones"
+      },
+      "airpods-max": {
+        "title": "Apple AirPods Max Earphones"
+      },
+      "mac-mini-m2": {
+        "title": "Apple Mac mini M2 256 GB Computer"
+      },
+      "imac-24-m3": {
+        "title": "Apple iMac 24\" M3 256 GB All-in-One PC"
+      },
+      "apple-pencil-2": {
+        "title": "Apple Pencil 2"
+      }
+    }
+  },
+  "saralanganlar": {
+    "title": "My Favorites",
+    "navbar": "Favorites",
+    "empty": "Your wishlist is empty",
+    "dont_waste_time": "Don't waste time looking for products you like"
+  },
+  "price": "Price",
+  "old_price": "Old Price",
+  "discount": "Discount",
+  "installment": "Installment",
+  "add_to_cart": "Add to Cart",
+  "buy_now": "Buy Now",
+  "product_not_found": "Product not found",
+  "back_home": "Back to Home",
+  "start_shopping": "Start Shopping",
+  "remove_from_wishlist": "Remove from wishlist",
+  "wishlist_added": "Product is now added to favourites",
+  "installment_badge": "installment",
+  "month": "month",
+  "reviews": "reviews",
+  "during": "during",
+  "cart_empty": "your cart is empty",
+  "add_products_prompt": "add products to the cart and give order",
+  "delete_selected": "delete the selected",
+  "choose_all": "choose all",
+  "products_count": "products",
+  "shipping": "shipping",
+  "free": "Free",
+  "all_total": "All",
+  "checkout": "rasmiylashtirish",
+  "delete": "Delete",
+  "delete_confirm_title": "do you want to delete this",
+  "delete_confirm_subtitle": "probably you pressed wrong button?",
+  "leave": "leave",
+  "discountDaySection": {
+    "header": "Discount Day",
+    "seeAll": "‣",
+    "products": {
+      "discountDay-1": {
+        "title": "Product name 1",
+        "description": "Brief product information."
+      },
+      "discountDay-2": {
+        "title": "Product name 2",
+        "description": "Brief product information."
+      },
+      "discountDay-3": {
+        "title": "Product name 3",
+        "description": "Brief product information."
+      },
+      "discountDay-4": {
+        "title": "Product name 4",
+        "description": "Brief product information."
+      },
+      "discountDay-5": {
+        "title": "Product name 5",
+        "description": "Brief product information."
+      },
+      "discountDay-6": {
+        "title": "Product name 6",
+        "description": "Brief product information."
+      }
+    }
+  },
+  "beautySection": {
+    "header": "Beauty",
+    "seeAll": "‣",
+    "products": {
+      "beauty-1": {
+        "title": "Product name 1",
+        "description": "Brief product information."
+      },
+      "beauty-2": {
+        "title": "Product name 2",
+        "description": "Brief product information."
+      },
+      "beauty-3": {
+        "title": "Product name 3",
+        "description": "Brief product information."
+      },
+      "beauty-4": {
+        "title": "Product name 4",
+        "description": "Brief product information."
+      },
+      "beauty-5": {
+        "title": "Product name 5",
+        "description": "Brief product information."
+      },
+      "beauty-6": {
+        "title": "Product name 6",
+        "description": "Brief product information."
+      }
+    }
+  },
+  "autoProductsSection": {
+    "header": "Auto Products",
+    "seeAll": "‣",
+    "products": {
+      "autoProducts-1": {
+        "title": "Product name 1",
+        "description": "Brief product information."
+      },
+      "autoProducts-2": {
+        "title": "Product name 2",
+        "description": "Brief product information."
+      },
+      "autoProducts-3": {
+        "title": "Product name 3",
+        "description": "Brief product information."
+      },
+      "autoProducts-4": {
+        "title": "Product name 4",
+        "description": "Brief product information."
+      },
+      "autoProducts-5": {
+        "title": "Product name 5",
+        "description": "Brief product information."
+      },
+      "autoProducts-6": {
+        "title": "Product name 6",
+        "description": "Brief product information."
+      }
+    }
+  },
+  "perfumeSection": {
+    "header": "Perfume",
+    "seeAll": "‣",
+    "products": {
+      "perfume-1": {
+        "title": "Product name 1",
+        "description": "Brief product information."
+      },
+      "perfume-2": {
+        "title": "Product name 2",
+        "description": "Brief product information."
+      },
+      "perfume-3": {
+        "title": "Product name 3",
+        "description": "Brief product information."
+      },
+      "perfume-4": {
+        "title": "Product name 4",
+        "description": "Brief product information."
+      },
+      "perfume-5": {
+        "title": "Product name 5",
+        "description": "Brief product information."
+      },
+      "perfume-6": {
+        "title": "Product name 6",
+        "description": "Brief product information."
+      }
+    }
+  },
+  "sportTechsSection": {
+    "header": "Sport Techs",
+    "seeAll": "‣",
+    "products": {
+      "sportTechs-1": {
+        "title": "Product name 1",
+        "description": "Brief product information."
+      },
+      "sportTechs-2": {
+        "title": "Product name 2",
+        "description": "Brief product information."
+      },
+      "sportTechs-3": {
+        "title": "Product name 3",
+        "description": "Brief product information."
+      },
+      "sportTechs-4": {
+        "title": "Product name 4",
+        "description": "Brief product information."
+      },
+      "sportTechs-5": {
+        "title": "Product name 5",
+        "description": "Brief product information."
+      },
+      "sportTechs-6": {
+        "title": "Product name 6",
+        "description": "Brief product information."
+      }
+    }
+  },
+  "laptopsSection": {
+    "header": "Laptops",
+    "seeAll": "‣",
+    "products": {
+      "laptops-1": {
+        "title": "Product name 1",
+        "description": "Brief product information."
+      },
+      "laptops-2": {
+        "title": "Product name 2",
+        "description": "Brief product information."
+      },
+      "laptops-3": {
+        "title": "Product name 3",
+        "description": "Brief product information."
+      },
+      "laptops-4": {
+        "title": "Product name 4",
+        "description": "Brief product information."
+      },
+      "laptops-5": {
+        "title": "Product name 5",
+        "description": "Brief product information."
+      },
+      "laptops-6": {
+        "title": "Product name 6",
+        "description": "Brief product information."
+      }
+    }
+  },
+  "cleaningTechsSection": {
+    "header": "Home Cleaning Techs",
+    "seeAll": "‣",
+    "products": {
+      "cleaningTechs-1": {
+        "title": "Product name 1",
+        "description": "Brief product information."
+      },
+      "cleaningTechs-2": {
+        "title": "Product name 2",
+        "description": "Brief product information."
+      },
+      "cleaningTechs-3": {
+        "title": "Product name 3",
+        "description": "Brief product information."
+      },
+      "cleaningTechs-4": {
+        "title": "Product name 4",
+        "description": "Brief product information."
+      },
+      "cleaningTechs-5": {
+        "title": "Product name 5",
+        "description": "Brief product information."
+      },
+      "cleaningTechs-6": {
+        "title": "Product name 6",
+        "description": "Brief product information."
+      }
+    }
+  }
+}

@@ -1,0 +1,170 @@
+.saralanganlar {
+  min-height: 100vh;
+  padding: 24px 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.saralanganlar__header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #111827;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.saralanganlar__header .icon {
+  color: #dc2626;
+}
+
+.saralanganlar__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  text-align: center;
+}
+
+.saralanganlar__empty-text {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 24px;
+}
+
+.dontWasteTime {
+  font-size: 14px;
+  margin-bottom: 24px;
+  color: #6b7280;
+}
+
+.saralanganlarBackBtn {
+  padding: 12px 22px;
+  background: #FFC845;
+  border-radius: 8px;
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.saralanganlarBackBtn:hover {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
+.saralanganlar__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.saralanganlar__card {
+  position: relative;
+  background: #f8fafc;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s;
+}
+
+.saralanganlar__card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.saralanganlar__card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.saralanganlar__card-image {
+  width: 100%;
+  height: 160px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.saralanganlar__card-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.saralanganlar__card-body {
+  padding: 12px;
+  display: grid;
+  gap: 8px;
+}
+
+.saralanganlar__card-title {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #111827;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.saralanganlar__card-price {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.saralanganlar__card-discount {
+  display: inline-block;
+  padding: 3px 8px;
+  background: #fee2e2;
+  color: #b91c1c;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.saralanganlar__card-remove {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.94);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #dc2626;
+  transition: all 0.2s;
+}
+
+.saralanganlar__card-remove:hover {
+  background: #fee2e2;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .saralanganlar__grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .saralanganlar__header h1 {
+    font-size: 1.5rem;
+  }
+}

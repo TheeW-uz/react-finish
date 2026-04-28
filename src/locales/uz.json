@@ -1,0 +1,1220 @@
+{
+  "catalog": "Tovarlar katalogi",
+  "search_placeholder": "Alif Shopda topish",
+  "login": "Kirish",
+  "favorites": "Saralanganlar",
+  "avia_tickets": "Aviachiptalar",
+  "cart": "Savat",
+  "navLinks": {
+    "Smartphones and Gadgets": {
+      "title": "Smartfonlar va gadjetlar",
+      "dropdown": [
+        {
+          "title": "Smartfonlar va telefonlar",
+          "submenu": [
+            "Apple smartfonlari",
+            "Techno smartfonlari",
+            "Xiaomi smartfonlari",
+            "Vivo smartfonlari",
+            "Honor smartfonlari",
+            "Samsung smartfonlari"
+          ]
+        },
+        {
+          "title": "Smartfonlar uchun aksessuarlar",
+          "submenu": [
+            "Smartfon uchun g'ilof",
+            "Iphone uchun himoya oynasi",
+            "Zaryadlovchi",
+            "Himoya oynasi"
+          ]
+        },
+        {
+          "title": "Soatlar va aksessuarlar",
+          "submenu": [
+            "Aqlli soat",
+            "Qo'l soati",
+            "Aqlli uzuk",
+            "Fitness treker",
+            "Soat kamarlari"
+          ]
+        },
+        {
+          "title": "Gadjetlar",
+          "submenu": [
+            "Virtual haqiqat ko'zoynaklari",
+            "Aqlli ko'zoynaklar",
+            "Blog uchun texnika"
+          ]
+        },
+        {
+          "title": "Texnikalar",
+          "submenu": [
+            "Batareyka va zaryadlovchilar",
+            "Trekerlar",
+            "Kabellar",
+            "Portativ batareykalar"
+          ]
+        },
+        {
+          "title": "Kamera va videokameralar",
+          "submenu": [
+            "Foto qog'ozlar",
+            "Kameralar"
+          ]
+        }
+      ]
+    },
+    "Audio Technology": {
+      "title": "Audio texnologiya",
+      "dropdown": [
+        {
+          "title": "Naushniklar",
+          "submenu": [
+            "Simsiz naushniklar",
+            "Simli naushniklar",
+            "Shovqinni bekor qiluvchi",
+            "O'yin naushniklari",
+            "Ichki quloqchinlar"
+          ]
+        },
+        {
+          "title": "Karnaylar",
+          "submenu": [
+            "Portativ karnaylar",
+            "Bluetooth karnaylar",
+            "Uy audio tizimlari",
+            "Aqlli karnaylar"
+          ]
+        },
+        {
+          "title": "Professional audio",
+          "submenu": [
+            "Studiya monitorlari",
+            "Mikrofonlar",
+            "Mikserlar",
+            "Audio interfeyslar"
+          ]
+        },
+        {
+          "title": "Avtomobil audio",
+          "submenu": [
+            "Avtomobil karnaylari",
+            "Subvuferlar",
+            "Kuchaytirgichlar"
+          ]
+        },
+        {
+          "title": "Aksessuarlar",
+          "submenu": [
+            "Audio kabellar",
+            "Adapterlar",
+            "Stendlar",
+            "G'iloflar"
+          ]
+        }
+      ]
+    },
+    "Laptops & Computers": {
+      "title": "Noutbuklar va kompyuterlar",
+      "dropdown": [
+        {
+          "title": "Noutbuklar",
+          "submenu": [
+            "O'yin noutbuklari",
+            "Ultrabuklar",
+            "2-in-1 noutbuklar",
+            "Biznes noutbuklar"
+          ]
+        },
+        {
+          "title": "Stol kompyuterlari",
+          "submenu": [
+            "O'yin kompyuterlari",
+            "Barcha birda kompyuterlar",
+            "Mini kompyuterlar"
+          ]
+        },
+        {
+          "title": "Komponentlar",
+          "submenu": [
+            "Protsessorlar (CPU)",
+            "Grafik kartalar (GPU)",
+            "Onaplatalar",
+            "Operativ xotira (RAM)",
+            "SSD & HDD"
+          ]
+        },
+        {
+          "title": "Periferiyalar",
+          "submenu": [
+            "Monitorlar",
+            "Klaviaturalar",
+            "Sichqonlar",
+            "Veb-kameralar"
+          ]
+        },
+        {
+          "title": "Tarmoqlar",
+          "submenu": [
+            "Routerlar",
+            "Modemlar",
+            "Wi-Fi adapterlar"
+          ]
+        },
+        {
+          "title": "Saqlash",
+          "submenu": [
+            "Tashqi disklar",
+            "Fleshkalar",
+            "NAS tizimlari"
+          ]
+        }
+      ]
+    },
+    "TVs & Projectors": {
+      "title": "Televizorlar va proyektorlar",
+      "dropdown": [
+        {
+          "title": "Televizorlar",
+          "submenu": [
+            "Aqlli televizorlar",
+            "4K televizorlar",
+            "OLED televizorlar",
+            "QLED televizorlar",
+            "Android televizorlar"
+          ]
+        },
+        {
+          "title": "Proyektorlar",
+          "submenu": [
+            "Uy kinoteatri proyektorlari",
+            "Portativ proyektorlar",
+            "Mini proyektorlar"
+          ]
+        },
+        {
+          "title": "Oqim qurilmalari",
+          "submenu": [
+            "TV qutilari",
+            "Chromecast",
+            "Media pleerlar"
+          ]
+        },
+        {
+          "title": "Televizor aksessuarlari",
+          "submenu": [
+            "Devor uchun moslamalar",
+            "Pultlar",
+            "HDMI kabellar"
+          ]
+        },
+        {
+          "title": "Uy kinoteatri",
+          "submenu": [
+            "Saundbarlar",
+            "Uy kinoteatr tizimlari"
+          ]
+        }
+      ]
+    },
+    "Home Appliances": {
+      "title": "Maishiy texnika",
+      "dropdown": [
+        {
+          "title": "Katta texnika",
+          "submenu": [
+            "Muzlatgichlar",
+            "Kir yuvish mashinalari",
+            "Idish yuvish mashinalari"
+          ]
+        },
+        {
+          "title": "Oshxona texnikasi",
+          "submenu": [
+            "Mikroto'lqinli pechlar",
+            "Pechlar",
+            "Kofe mashinalari",
+            "Blenderlar"
+          ]
+        },
+        {
+          "title": "Kichik texnika",
+          "submenu": [
+            "Dazmollar",
+            "Choynaklar",
+            "Tosterlar"
+          ]
+        },
+        {
+          "title": "Tozalash",
+          "submenu": [
+            "Changyutgichlar",
+            "Robot changyutgichlar",
+            "Bug'li tozalagichlar"
+          ]
+        },
+        {
+          "title": "Iqlim",
+          "submenu": [
+            "Konditsionerlar",
+            "Isitgichlar",
+            "Havo tozalagichlar",
+            "Namlagichlar"
+          ]
+        }
+      ]
+    },
+    "Household Equipment": {
+      "title": "Uy jihozlari",
+      "dropdown": [
+        {
+          "title": "Oshxona anjomlari",
+          "submenu": [
+            "Pishirish anjomlari",
+            "Pichoqlar",
+            "Idishlar",
+            "Taxtachalar"
+          ]
+        },
+        {
+          "title": "Tozalash vositalari",
+          "submenu": [
+            "Pol artgichlar",
+            "Chelaklar",
+            "Cho'tkalar",
+            "Qo'lqoplar"
+          ]
+        },
+        {
+          "title": "Saqlash va tashkil qilish",
+          "submenu": [
+            "Qutilar",
+            "Raflar",
+            "Shkaf tashkilotchilari"
+          ]
+        },
+        {
+          "title": "Uy uchun zarur",
+          "submenu": [
+            "Axlat qutilari",
+            "Kir savatlari"
+          ]
+        }
+      ]
+    },
+    "Beauty, Health & Personal Care": {
+      "title": "Go'zallik, sog'liq va shaxsiy parvarish",
+      "dropdown": [
+        {
+          "title": "Kosmetika",
+          "submenu": [
+            "Tonal krem",
+            "Lab bo'yog'i",
+            "Tush",
+            "Ko'z soyasi"
+          ]
+        },
+        {
+          "title": "Teri parvarishi",
+          "submenu": [
+            "Tozalagichlar",
+            "Namlagichlar",
+            "Zardoblar",
+            "Quyoshdan himoya"
+          ]
+        },
+        {
+          "title": "Soch parvarishi",
+          "submenu": [
+            "Shampun",
+            "Balzam",
+            "Soch yog'i",
+            "Soch turmagi"
+          ]
+        },
+        {
+          "title": "Shaxsiy parvarish",
+          "submenu": [
+            "Soch olgichlar",
+            "Trimmerlar",
+            "Soch fenlari"
+          ]
+        },
+        {
+          "title": "Sog'liq qurilmalari",
+          "submenu": [
+            "Termometrlar",
+            "Qon bosimi o'lchagichlar",
+            "Massajchilar"
+          ]
+        },
+        {
+          "title": "Atir",
+          "submenu": [
+            "Parfyumeriya",
+            "Tana spreylari"
+          ]
+        }
+      ]
+    },
+    "Smart Home": {
+      "title": "Aqlli uy",
+      "dropdown": [
+        {
+          "title": "Yoritish",
+          "submenu": [
+            "Aqlli lampalar",
+            "LED lentalar",
+            "Aqlli lampalar"
+          ]
+        },
+        {
+          "title": "Xavfsizlik",
+          "submenu": [
+            "Aqlli kameralar",
+            "Video eshik qo'ng'iroqlari",
+            "Signalizatsiya tizimlari"
+          ]
+        },
+        {
+          "title": "Boshqaruv tizimlari",
+          "submenu": [
+            "Aqlli markazlar",
+            "Ovozli yordamchilar"
+          ]
+        },
+        {
+          "title": "Aqlli rozetkalar",
+          "submenu": [
+            "Wi-Fi rozetkalar",
+            "Energiya monitoring rozetkalari"
+          ]
+        },
+        {
+          "title": "Datchiklar",
+          "submenu": [
+            "Harakat datchiklari",
+            "Harorat datchiklari"
+          ]
+        }
+      ]
+    },
+    "Gaming Technology": {
+      "title": "O'yin texnologiyalari",
+      "dropdown": [
+        {
+          "title": "Konsollar",
+          "submenu": [
+            "PlayStation 5",
+            "Xbox Series X",
+            "Nintendo Switch"
+          ]
+        },
+        {
+          "title": "O'yin aksessuarlari",
+          "submenu": [
+            "Kontrollerlar",
+            "Naushniklar",
+            "Zaryadlash stansiyalari"
+          ]
+        },
+        {
+          "title": "PC o'yinlari",
+          "submenu": [
+            "O'yin klaviaturalari",
+            "O'yin sichqonlari",
+            "O'yin monitorlari"
+          ]
+        },
+        {
+          "title": "VR o'yinlari",
+          "submenu": [
+            "VR ko'zoynaklar",
+            "VR kontrollerlar"
+          ]
+        },
+        {
+          "title": "O'yinlar",
+          "submenu": [
+            "Raqamli o'yinlar",
+            "Diskli o'yinlar"
+          ]
+        }
+      ]
+    },
+    "Sports & Outdoors": {
+      "title": "Sport va ochiq havo",
+      "dropdown": [
+        {
+          "title": "Fitnes anjomlari",
+          "submenu": [
+            "Gantel",
+            "Yugurish yo'laklari",
+            "Velotrenajyorlar"
+          ]
+        },
+        {
+          "title": "Ochiq havo anjomlari",
+          "submenu": [
+            "Palatkalar",
+            "Uyqu xaltalari",
+            "Kemping anjomlari"
+          ]
+        },
+        {
+          "title": "Sport anjomlari",
+          "submenu": [
+            "Futbol",
+            "Basketbol",
+            "Tennis"
+          ]
+        },
+        {
+          "title": "Velosport",
+          "submenu": [
+            "Velosipedlar",
+            "Shlem",
+            "Aksessuarlar"
+          ]
+        },
+        {
+          "title": "Sayohat",
+          "submenu": [
+            "Xaltalar",
+            "Sayohat sumkalari"
+          ]
+        }
+      ]
+    },
+    "Electronics": {
+      "title": "Elektronika",
+      "dropdown": [
+        {
+          "title": "Mobil aksessuarlar",
+          "submenu": [
+            "Zaryadlovchilar",
+            "Powerbanklar",
+            "Kabellar",
+            "G'iloflar"
+          ]
+        },
+        {
+          "title": "Taqqilanuvchi qurilmalar",
+          "submenu": [
+            "Aqlli soatlar",
+            "Fitness trekerlar",
+            "Aqlli uzuklar"
+          ]
+        },
+        {
+          "title": "Batareykalar",
+          "submenu": [
+            "Qayta zaryadlanadigan batareykalar",
+            "Batareyka zaryadlovchilar"
+          ]
+        },
+        {
+          "title": "Adapterlar",
+          "submenu": [
+            "USB adapterlar",
+            "Konvertorlar"
+          ]
+        }
+      ]
+    },
+    "Kids & Toys": {
+      "title": "Bolalar va o'yinchoqlar",
+      "dropdown": [
+        {
+          "title": "O'yinchoqlar",
+          "submenu": [
+            "Ta'limiy o'yinchoqlar",
+            "RC o'yinchoqlar",
+            "Stol o'yinlari"
+          ]
+        },
+        {
+          "title": "Bola parvarishi",
+          "submenu": [
+            "Pamperslar",
+            "Bola ovqati",
+            "Bolalar aravalari"
+          ]
+        },
+        {
+          "title": "Kiyim-kechak",
+          "submenu": [
+            "Bolalar kiyimlari",
+            "Poyabzallar"
+          ]
+        },
+        {
+          "title": "Maktab anjomlari",
+          "submenu": [
+            "Ryukzaklar",
+            "Tushlik qutilari"
+          ]
+        }
+      ]
+    },
+    "Construction Tools": {
+      "title": "Qurilish asboblari",
+      "dropdown": [
+        {
+          "title": "Elektr asboblar",
+          "submenu": [
+            "Drellar",
+            "Burchak silliqlagichlar",
+            "Arralar"
+          ]
+        },
+        {
+          "title": "Qo'l asboblari",
+          "submenu": [
+            "Bolg'alar",
+            "Kalitlar",
+            "Otvertkalar"
+          ]
+        },
+        {
+          "title": "O'lchov asboblari",
+          "submenu": [
+            "Lazerli darajalar",
+            "O'lchov lentalari"
+          ]
+        },
+        {
+          "title": "Og'ir texnika",
+          "submenu": [
+            "Generatorlar",
+            "Havo kompressorlar"
+          ]
+        }
+      ]
+    },
+    "Home Tools": {
+      "title": "Uy asboblari",
+      "dropdown": [
+        {
+          "title": "Ta'mirlash to'plamlari",
+          "submenu": [
+            "Asboblar to'plami",
+            "Ko'p funksiyali asboblar"
+          ]
+        },
+        {
+          "title": "Elektr",
+          "submenu": [
+            "Testerlari",
+            "Payvandlash asboblari"
+          ]
+        },
+        {
+          "title": "Mahkamlagichlar",
+          "submenu": [
+            "Mixlar",
+            "Vintlar",
+            "Boltlar"
+          ]
+        }
+      ]
+    },
+    "Home & Garden": {
+      "title": "Uy va bog'",
+      "dropdown": [
+        {
+          "title": "Bog' asboblari",
+          "submenu": [
+            "Belkuraklar",
+            "Tirnoqlar",
+            "Shlanglar"
+          ]
+        },
+        {
+          "title": "O'simliklar",
+          "submenu": [
+            "Xonaki o'simliklar",
+            "Urug'lar",
+            "O'g'itlar"
+          ]
+        },
+        {
+          "title": "Ochiq havo mebellari",
+          "submenu": [
+            "Bog' stullari",
+            "Stollar"
+          ]
+        },
+        {
+          "title": "Dekor",
+          "submenu": [
+            "Chiroqlar",
+            "Bog' dekorlari"
+          ]
+        }
+      ]
+    },
+    "Food Products": {
+      "title": "Oziq-ovqat mahsulotlari",
+      "dropdown": [
+        {
+          "title": "Oziq-ovqatlar",
+          "submenu": [
+            "Gazaklar",
+            "Ichimliklar",
+            "Konserva ovqatlar"
+          ]
+        },
+        {
+          "title": "Yangi mahsulotlar",
+          "submenu": [
+            "Mevalar",
+            "Sabzavotlar",
+            "Go'sht"
+          ]
+        },
+        {
+          "title": "Non mahsulotlari",
+          "submenu": [
+            "Non",
+            "Pishiriqlar"
+          ]
+        },
+        {
+          "title": "Asosiy mahsulotlar",
+          "submenu": [
+            "Guruch",
+            "Un",
+            "Yog'"
+          ]
+        }
+      ]
+    },
+    "Office & Stationery": {
+      "title": "Ofis va kantselyariya",
+      "dropdown": [
+        {
+          "title": "Ofis anjomlari",
+          "submenu": [
+            "Ruchkalar",
+            "Daftarlar",
+            "Papkalar"
+          ]
+        },
+        {
+          "title": "Maktab anjomlari",
+          "submenu": [
+            "Ryukzaklar",
+            "San'at anjomlari"
+          ]
+        },
+        {
+          "title": "Ofis texnikasi",
+          "submenu": [
+            "Printerlar",
+            "Skanerlar",
+            "Kalkulyatorlar"
+          ]
+        }
+      ]
+    },
+    "Household Chemicals": {
+      "title": "Maishiy kimyoviylar",
+      "dropdown": [
+        {
+          "title": "Tozalash",
+          "submenu": [
+            "Tozalash vositalari",
+            "Dezinfektantlar",
+            "Oyna tozalagichlar"
+          ]
+        },
+        {
+          "title": "Kir yuvish",
+          "submenu": [
+            "Kir yuvish kukuni",
+            "Mato yumshatgich"
+          ]
+        },
+        {
+          "title": "Havo parvarishi",
+          "submenu": [
+            "Havo tozalagichlar"
+          ]
+        }
+      ]
+    },
+    "Pet Supplies": {
+      "title": "Uy hayvonlari uchun",
+      "dropdown": [
+        {
+          "title": "Uy hayvonlari uchun ovqat",
+          "submenu": [
+            "Itlar uchun ovqat",
+            "Mushuklar uchun ovqat"
+          ]
+        },
+        {
+          "title": "Aksessuarlar",
+          "submenu": [
+            "Qo'lbog'lar",
+            "Idishlar",
+            "O'yinchoqlar"
+          ]
+        },
+        {
+          "title": "Parvarish",
+          "submenu": [
+            "Shampunlar",
+            "Parvarish"
+          ]
+        }
+      ]
+    },
+    "Books": {
+      "title": "Kitoblar",
+      "dropdown": [
+        {
+          "title": "Badiiy adabiyot",
+          "submenu": [
+            "Romanlar",
+            "Fantastika",
+            "Detektiv"
+          ]
+        },
+        {
+          "title": "Ta'lim",
+          "submenu": [
+            "Darsliklar",
+            "Til o'rganish"
+          ]
+        },
+        {
+          "title": "Bolalar",
+          "submenu": [
+            "Hikoya kitoblari",
+            "Rangli kitoblar"
+          ]
+        },
+        {
+          "title": "Biznes",
+          "submenu": [
+            "Marketing",
+            "Moliya"
+          ]
+        }
+      ]
+    }
+  },
+  "appleSection": {
+    "header": "Apple kunlari",
+    "seeAll": "Hammasini ko'rish",
+    "products": {
+      "iphone-17-pro": {
+        "title": "Apple iPhone 17 Pro 256 GB Smartfon",
+        "description": "Kuchli kameralar, tez protsessor va zamonaviy dizayn."
+      },
+      "macbook-neo": {
+        "title": "Apple MacBook Neo A18 Noutbuki",
+        "description": "Yengil korpus va uzoq ishlash vaqti uchun ideal."
+      },
+      "iphone-17-256": {
+        "title": "Apple iPhone 17 256 GB Smartfon",
+        "description": "Original telefon, xaridni ishonchli qiluvchi kafolat."
+      },
+      "ipad-a16": {
+        "title": "Apple iPad A16 128 GB Planshet",
+        "description": "Rang-barang displey va mobil ishlash uchun."
+      },
+      "iphone-17-pro-orange": {
+        "title": "Apple iPhone 17 Pro 256 GB Oltin Smartfon",
+        "description": "Oltin rangli pro model, yuqori imkoniyatlar bilan."
+      },
+      "iphone-17e": {
+        "title": "Apple iPhone 17e 256 GB Smartfon",
+        "description": "Ajoyib dizayn hamda arzon narx kombinatsiyasi."
+      },
+      "iphone-17-lite": {
+        "title": "Apple iPhone 17 Lite 128 GB Smartfon",
+        "description": "Eng yangi Apple modelining eng yaxshi arzon varianti."
+      },
+      "ipad-air": {
+        "title": "Apple iPad Air 10.9\" 64 GB Planshet",
+        "description": "Yengil planshet, o'qish va kontent uchun mukammal."
+      },
+      "iphone-air": {
+        "title": "Apple iPhone Air 256 GB Smartfon",
+        "description": "Ochiq qora rang va moslashuvchan ishlash."
+      }
+    }
+  },
+  "popularSection": {
+    "header": "Mashhur mahsulotlar",
+    "seeAll": "Hammasini ko'rish",
+    "products": {
+      "iphone-17-pro-max": {
+        "title": "Smartfon Apple iPhone 17 Pro Max 256 GB"
+      },
+      "xiaomi-redmi-14": {
+        "title": "Smartfon Xiaomi Redmi Note 14 6/128 GB"
+      },
+      "iphone-16-pro-max": {
+        "title": "Smartfon Apple iPhone 16 Pro Max 256 GB"
+      },
+      "samsung-galaxy-a17": {
+        "title": "Smartfon Samsung Galaxy A17 6/128 GB"
+      },
+      "iphone-16-pro": {
+        "title": "Smartfon Apple iPhone 16 Pro 256 GB"
+      },
+      "samsung-galaxy-s25-ultra": {
+        "title": "Smartfon Samsung Galaxy S25 Ultra 5G"
+      },
+      "lg-television-43": {
+        "title": "Televizor LG 43\" FHD Smart TV"
+      },
+      "car-wheels-kit": {
+        "title": "Avtomobil g'ildiraklari komplekti R17"
+      },
+      "iphone-13-128": {
+        "title": "Smartfon Apple iPhone 13 128 GB"
+      },
+      "iphone-15-pro-max": {
+        "title": "Smartfon Apple iPhone 15 Pro Max 256 GB"
+      },
+      "iphone-15-pro": {
+        "title": "Smartfon Apple iPhone 15 Pro 128 GB"
+      },
+      "iphone-15": {
+        "title": "Smartfon Apple iPhone 15 128 GB"
+      },
+      "iphone-14-pro-max": {
+        "title": "Smartfon Apple iPhone 14 Pro Max 256 GB"
+      },
+      "iphone-14-pro": {
+        "title": "Smartfon Apple iPhone 14 Pro 128 GB"
+      },
+      "iphone-14": {
+        "title": "Smartfon Apple iPhone 14 128 GB"
+      },
+      "iphone-13-pro": {
+        "title": "Smartfon Apple iPhone 13 Pro 128 GB"
+      },
+      "iphone-13": {
+        "title": "Smartfon Apple iPhone 13 256 GB"
+      },
+      "iphone-12": {
+        "title": "Smartfon Apple iPhone 12 128 GB"
+      },
+      "iphone-11": {
+        "title": "Smartfon Apple iPhone 11 128 GB"
+      },
+      "ipad-pro-129": {
+        "title": "Planshet Apple iPad Pro 12.9\" M2 256 GB"
+      },
+      "ipad-pro-11": {
+        "title": "Planshet Apple iPad Pro 11\" M2 128 GB"
+      },
+      "ipad-air-5": {
+        "title": "Planshet Apple iPad Air 5 256 GB"
+      },
+      "ipad-10": {
+        "title": "Planshet Apple iPad 10-avlod 64 GB"
+      },
+      "ipad-mini-6": {
+        "title": "Planshet Apple iPad Mini 6 64 GB"
+      },
+      "macbook-pro-16": {
+        "title": "Noutbuk Apple MacBook Pro 16\" M3 Max"
+      },
+      "macbook-pro-14": {
+        "title": "Noutbuk Apple MacBook Pro 14\" M3 Pro"
+      },
+      "macbook-air-15": {
+        "title": "Noutbuk Apple MacBook Air 15\" M2"
+      },
+      "macbook-air-13": {
+        "title": "Noutbuk Apple MacBook Air 13\" M2"
+      },
+      "macbook-air-m1": {
+        "title": "Noutbuk Apple MacBook Air M1 256 GB"
+      },
+      "apple-watch-ultra-2": {
+        "title": "Aqlli Soat Apple Watch Ultra 2"
+      },
+      "apple-watch-series-9-45": {
+        "title": "Aqlli Soat Apple Watch Series 9 45mm"
+      },
+      "apple-watch-series-9-41": {
+        "title": "Aqlli Soat Apple Watch Series 9 41mm"
+      },
+      "apple-watch-se-2": {
+        "title": "Aqlli Soat Apple Watch SE 2 44mm"
+      },
+      "airpods-pro-2": {
+        "title": "Quloqchinlar Apple AirPods Pro 2"
+      },
+      "airpods-3": {
+        "title": "Quloqchinlar Apple AirPods 3"
+      },
+      "airpods-max": {
+        "title": "Quloqchinlar Apple AirPods Max"
+      },
+      "mac-mini-m2": {
+        "title": "Kompyuter Apple Mac mini M2 256 GB"
+      },
+      "imac-24-m3": {
+        "title": "Monoblok Apple iMac 24\" M3 256 GB"
+      },
+      "apple-pencil-2": {
+        "title": "Qalam Apple Pencil 2"
+      }
+    }
+  },
+  "saralanganlar": {
+    "title": "Saralanglar ro'yxati xozircha bo'sh",
+    "navbar": "Saralanganlar",
+    "empty": "Saralanganlar ro'yxatiz bo'sh",
+    "dont_waste_time": "Uzoq vaqt qidirmaslik uchun ozingizga yoqqan tovarlarni saqlang",
+    "back_to_catalog": "Katalogga o'tish"
+  },
+  "price": "Narx",
+  "old_price": "Eski narx",
+  "discount": "Chegirma",
+  "installment": "To'lov rejasi",
+  "add_to_cart": "Savatga qo'shish",
+  "buy_now": "Hozir xarid qil",
+  "product_not_found": "Mahsulot topilmadi",
+  "back_home": "Bosh sahifaga qaytish",
+  "start_shopping": "Xarid qilishni boshlang",
+  "remove_from_wishlist": "Saralanganlardan olib tashlash",
+  "wishlist_added": "Mahsulot saralanganlarga qo'shildi",
+  "installment_badge": "muddatili to'lov",
+  "month": "oy",
+  "reviews": "baho",
+  "during": "davomida",
+  "cart_empty": "savat hali bo'sh",
+  "add_products_prompt": "savatga mahsulot qo'shing va buyurtma bering",
+  "delete_selected": "tanlanganlarni o'chirish",
+  "choose_all": "barchasini tanlash",
+  "products_count": "tovarlar",
+  "shipping": "yetkazib berish",
+  "free": "Bepul",
+  "all_total": "Jami",
+  "checkout": "rasmiylashtirish",
+  "delete": "O'chirish",
+  "delete_confirm_title": "Rostdan ham o'chirmoqchimisiz?",
+  "delete_confirm_subtitle": "Ehtimol, noto'g'ri tugmani bosgandirsiz?",
+  "leave": "qoldirish",
+  "discountDaySection": {
+    "header": "Chegirma kuni",
+    "seeAll": "‣",
+    "products": {
+      "discountDay-1": {
+        "title": "Mahsulot nomi 1",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "discountDay-2": {
+        "title": "Mahsulot nomi 2",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "discountDay-3": {
+        "title": "Mahsulot nomi 3",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "discountDay-4": {
+        "title": "Mahsulot nomi 4",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "discountDay-5": {
+        "title": "Mahsulot nomi 5",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "discountDay-6": {
+        "title": "Mahsulot nomi 6",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      }
+    }
+  },
+  "beautySection": {
+    "header": "Go'zallik",
+    "seeAll": "‣",
+    "products": {
+      "beauty-1": {
+        "title": "Mahsulot nomi 1",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "beauty-2": {
+        "title": "Mahsulot nomi 2",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "beauty-3": {
+        "title": "Mahsulot nomi 3",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "beauty-4": {
+        "title": "Mahsulot nomi 4",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "beauty-5": {
+        "title": "Mahsulot nomi 5",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "beauty-6": {
+        "title": "Mahsulot nomi 6",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      }
+    }
+  },
+  "autoProductsSection": {
+    "header": "Avto mahsulotlar",
+    "seeAll": "‣",
+    "products": {
+      "autoProducts-1": {
+        "title": "Mahsulot nomi 1",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "autoProducts-2": {
+        "title": "Mahsulot nomi 2",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "autoProducts-3": {
+        "title": "Mahsulot nomi 3",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "autoProducts-4": {
+        "title": "Mahsulot nomi 4",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "autoProducts-5": {
+        "title": "Mahsulot nomi 5",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "autoProducts-6": {
+        "title": "Mahsulot nomi 6",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      }
+    }
+  },
+  "perfumeSection": {
+    "header": "Parfyumeriya",
+    "seeAll": "‣",
+    "products": {
+      "perfume-1": {
+        "title": "Mahsulot nomi 1",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "perfume-2": {
+        "title": "Mahsulot nomi 2",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "perfume-3": {
+        "title": "Mahsulot nomi 3",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "perfume-4": {
+        "title": "Mahsulot nomi 4",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "perfume-5": {
+        "title": "Mahsulot nomi 5",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "perfume-6": {
+        "title": "Mahsulot nomi 6",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      }
+    }
+  },
+  "sportTechsSection": {
+    "header": "Sport texnikalari",
+    "seeAll": "‣",
+    "products": {
+      "sportTechs-1": {
+        "title": "Mahsulot nomi 1",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "sportTechs-2": {
+        "title": "Mahsulot nomi 2",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "sportTechs-3": {
+        "title": "Mahsulot nomi 3",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "sportTechs-4": {
+        "title": "Mahsulot nomi 4",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "sportTechs-5": {
+        "title": "Mahsulot nomi 5",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "sportTechs-6": {
+        "title": "Mahsulot nomi 6",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      }
+    }
+  },
+  "laptopsSection": {
+    "header": "Noutbuklar",
+    "seeAll": "‣",
+    "products": {
+      "laptops-1": {
+        "title": "Mahsulot nomi 1",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "laptops-2": {
+        "title": "Mahsulot nomi 2",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "laptops-3": {
+        "title": "Mahsulot nomi 3",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "laptops-4": {
+        "title": "Mahsulot nomi 4",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "laptops-5": {
+        "title": "Mahsulot nomi 5",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "laptops-6": {
+        "title": "Mahsulot nomi 6",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      }
+    }
+  },
+  "cleaningTechsSection": {
+    "header": "Uy tozalash texnikalari",
+    "seeAll": "‣",
+    "products": {
+      "cleaningTechs-1": {
+        "title": "Mahsulot nomi 1",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "cleaningTechs-2": {
+        "title": "Mahsulot nomi 2",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "cleaningTechs-3": {
+        "title": "Mahsulot nomi 3",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "cleaningTechs-4": {
+        "title": "Mahsulot nomi 4",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "cleaningTechs-5": {
+        "title": "Mahsulot nomi 5",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      },
+      "cleaningTechs-6": {
+        "title": "Mahsulot nomi 6",
+        "description": "Mahsulot haqida qisqacha ma'lumot."
+      }
+    }
+  }
+}

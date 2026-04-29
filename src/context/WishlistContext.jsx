@@ -10,7 +10,6 @@ export const WishlistProvider = ({ children }) => {
   const [toastData, setToastData] = useState({ show: false, product: null });
   const [timeoutId, setTimeoutId] = useState(null);
 
-  // Load wishlist from localStorage on mount
   useEffect(() => {
     const saved = localStorage.getItem('wishlist');
     if (saved) {
@@ -22,7 +21,6 @@ export const WishlistProvider = ({ children }) => {
     }
   }, []);
 
-  // Save wishlist to localStorage whenever it changes
   useEffect(() => {
     localStorage.setItem('wishlist', JSON.stringify(wishlist));
   }, [wishlist]);
@@ -33,8 +31,7 @@ export const WishlistProvider = ({ children }) => {
       if (exists) {
         return prev.filter((item) => item.id !== product.id);
       }
-      
-      // Show toast
+
       setToastData({ show: true, product });
       if (timeoutId) clearTimeout(timeoutId);
       const newTimeoutId = setTimeout(() => {
@@ -62,15 +59,16 @@ export const WishlistProvider = ({ children }) => {
     return wishlist.some((item) => item.id === productId);
   };
 
-  const value = {
+  const value = React.useMemo(() => ({
     wishlist,
     addToWishlist,
     removeFromWishlist,
     isInWishlist,
-  };
+  }), [wishlist]);
 
   return (
     <WishlistContext.Provider value={value}>
+
       {children}
       {toastData.show && (
         <div className="wishlist-toast">

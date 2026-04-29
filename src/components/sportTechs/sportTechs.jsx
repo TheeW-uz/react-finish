@@ -37,7 +37,7 @@ export default function SportTechs() {
           <SwiperSlide key={item.id}>
             <Link to={`/product/${item.id}`} className="appleCard">
               <div className="appleCard__image">
-                <img src={item.image} alt={item.title} />
+                <img src={item.image} alt={item.title} loading="lazy" />
                 
                 <button 
                   className="hover-cart-btn"

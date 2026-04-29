@@ -33,10 +33,11 @@ function PopularProducts() {
         {visibleItems.map((item) => (
           <Link key={item.id} to={`/product/${item.id}`} className="popularCard">
             <div className="popularCard__image">
-              <img src={item.image} alt={item.title} />
+              <img src={item.image} alt={item.title} loading="lazy" />
               <button
                 className="popularCard__heart"
                 onClick={(e) => handleWishlistClick(e, item)}
+                aria-label={isInWishlist(item.id) ? t('wishlist.remove', 'Remove from wishlist') : t('wishlist.add', 'Add to wishlist')}
                 title={isInWishlist(item.id) ? 'Remove from wishlist' : 'Add to wishlist'}
               >
                 {isInWishlist(item.id) ? (
@@ -48,6 +49,7 @@ function PopularProducts() {
 
               <button
                 className="hover-cart-btn"
+                aria-label={t('cart.add', 'Add to cart')}
                 onClick={(e) => {
                   e.preventDefault();
                   e.stopPropagation();
@@ -56,6 +58,7 @@ function PopularProducts() {
               >
                 <FaShoppingCart />
               </button>
+
 
               {item.discount && (
                 <span className="popularCard__badge">{item.discount}%</span>

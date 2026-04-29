@@ -43,21 +43,22 @@ const Footer = () => {
                     <div className="footer-column">
                         <h4>{t('footer.obuna', "Obuna bo'ling")}</h4>
                         <div className="social-icons">
-                            <a href="#" className="social-icon insta"><FaInstagram /></a>
-                            <a href="#" className="social-icon fb"><FaFacebookF /></a>
-                            <a href="#" className="social-icon tg"><FaTelegramPlane /></a>
+                            <a href="#" className="social-icon insta" aria-label="Instagram"><FaInstagram /></a>
+                            <a href="#" className="social-icon fb" aria-label="Facebook"><FaFacebookF /></a>
+                            <a href="#" className="social-icon tg" aria-label="Telegram"><FaTelegramPlane /></a>
                         </div>
                     </div>
 
                     <div className="footer-qr-column">
                         <div className="qr-container">
-                            <img src={qrCode} alt="QR Code" className="qr-img" />
+                            <img src={qrCode} alt="Scan to download app" className="qr-img" loading="lazy" />
                             <div className="store-buttons">
-                                <img src={appStore} alt="App Store" className="store-img" />
-                                <img src={googlePlay} alt="Google Play" className="store-img" />
+                                <img src={appStore} alt="Download on App Store" className="store-img" loading="lazy" />
+                                <img src={googlePlay} alt="Get it on Google Play" className="store-img" loading="lazy" />
                             </div>
                         </div>
                     </div>
+
                 </div>
 
                 <div className="footer-bottom">

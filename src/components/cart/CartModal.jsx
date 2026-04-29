@@ -10,11 +10,11 @@ import './CartModal.css';
 const CartModal = () => {
     const { t } = useTranslation();
     const navigate = useNavigate();
-    const { 
-        cart, 
-        updateQuantity, 
-        removeFromCart, 
-        isCartOpen, 
+    const {
+        cart,
+        updateQuantity,
+        removeFromCart,
+        isCartOpen,
         setIsCartOpen,
         totalPrice,
         totalItems,
@@ -22,7 +22,7 @@ const CartModal = () => {
     } = useCart();
     const { addToWishlist, isInWishlist } = useWishlist();
     const [selectedItems, setSelectedItems] = useState(cart.map(item => `${item.id}-${item.installmentMonth}`));
-    
+
     // State for delete confirmation modal
     const [confirmDelete, setConfirmDelete] = useState({ open: false, id: null, month: null, bulk: false });
 
@@ -30,7 +30,7 @@ const CartModal = () => {
 
     const handleToggleSelect = (id, month) => {
         const key = `${id}-${month}`;
-        setSelectedItems(prev => 
+        setSelectedItems(prev =>
             prev.includes(key) ? prev.filter(k => k !== key) : [...prev, key]
         );
     };
@@ -79,8 +79,8 @@ const CartModal = () => {
         <div className="cart-modal-overlay" onClick={() => setIsCartOpen(false)}>
             <div className="cart-modal-content" onClick={e => e.stopPropagation()}>
                 <div className="cart-modal-header">
-                    <button className="close-btn" onClick={() => setIsCartOpen(false)}>
-                        <IoClose />
+                    <button className="close-btn" onClick={() => setIsCartOpen(false)} aria-label={t('close_cart', 'Close cart')}>
+                        <IoClose aria-hidden="true" />
                     </button>
                     <h2>{t('cart', 'Cart')}</h2>
                 </div>
@@ -100,9 +100,9 @@ const CartModal = () => {
                             </button>
                             <label className="select-all">
                                 <span>{t('choose_all', 'choose all')}</span>
-                                <input 
-                                    type="checkbox" 
-                                    checked={selectedItems.length === cart.length && cart.length > 0} 
+                                <input
+                                    type="checkbox"
+                                    checked={selectedItems.length === cart.length && cart.length > 0}
                                     onChange={handleSelectAll}
                                 />
                             </label>
@@ -114,8 +114,8 @@ const CartModal = () => {
                                 return (
                                     <div key={key} className="cart-item">
                                         <div className="item-main">
-                                            <input 
-                                                type="checkbox" 
+                                            <input
+                                                type="checkbox"
                                                 checked={selectedItems.includes(key)}
                                                 onChange={() => handleToggleSelect(item.id, item.installmentMonth)}
                                             />
@@ -137,14 +137,14 @@ const CartModal = () => {
                                                     <span>{t('delete', 'Delete')}</span>
                                                 </button>
                                                 <button className="action-btn" onClick={() => addToWishlist(item)}>
-                                                    {isInWishlist(item.id) ? <FaHeart style={{color: '#ff4d4d'}} /> : <FaRegHeart />}
+                                                    {isInWishlist(item.id) ? <FaHeart style={{ color: '#ff4d4d' }} /> : <FaRegHeart />}
                                                     <span>{t('favorites', 'Favorites')}</span>
                                                 </button>
                                             </div>
                                             <div className="item-counter">
-                                                <button onClick={() => updateQuantity(item.id, item.installmentMonth, item.quantity - 1)}>-</button>
+                                                <button onClick={() => updateQuantity(item.id, item.installmentMonth, item.quantity - 1)} aria-label={t('decrease_quantity', 'Decrease quantity')}>-</button>
                                                 <span>{item.quantity}</span>
-                                                <button onClick={() => updateQuantity(item.id, item.installmentMonth, item.quantity + 1)}>+</button>
+                                                <button onClick={() => updateQuantity(item.id, item.installmentMonth, item.quantity + 1)} aria-label={t('increase_quantity', 'Increase quantity')}>+</button>
                                             </div>
                                         </div>
                                     </div>
@@ -177,8 +177,8 @@ const CartModal = () => {
             {confirmDelete.open && (
                 <div className="confirm-delete-overlay" onClick={() => setConfirmDelete({ open: false, id: null, month: null, bulk: false })}>
                     <div className="confirm-delete-modal" onClick={e => e.stopPropagation()}>
-                        <button className="confirm-close" onClick={() => setConfirmDelete({ open: false, id: null, month: null, bulk: false })}>
-                            <IoClose />
+                        <button className="confirm-close" onClick={() => setConfirmDelete({ open: false, id: null, month: null, bulk: false })} aria-label={t('close', 'Close')}>
+                            <IoClose aria-hidden="true" />
                         </button>
                         <div className="confirm-content">
                             <h3>{t('delete_confirm_title', 'do you want to delete this')}</h3>

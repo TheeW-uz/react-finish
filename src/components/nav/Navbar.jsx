@@ -15,7 +15,7 @@ const Navbar = () => {
     const navItems = NavLinks.slice(0, 8);
 
     return (
-        <div className="navbar-wrapper">
+        <nav className="navbar-wrapper" aria-label="Product categories">
             <Swiper
                 slidesPerView={'auto'}
                 spaceBetween={8}
@@ -25,11 +25,12 @@ const Navbar = () => {
             >
                 {navItems.map((item) => (
                     <SwiperSlide key={item.id} className="nav-slide">
-                        <a href="#" className="nav-slide-link">
+                        <a href={`/category/${item.title}`} className="nav-slide-link">
                             <img
                                 className="nav-slide-img"
                                 src={`/nav-product-${item.id}.png`}
-                                alt={item.title}
+                                alt={t(`navLinks.${item.title}.title`, item.title)}
+                                loading="lazy"
                             />
                             <span className="nav-slide-text">
                                 {t(`navLinks.${item.title}.title`, item.title)}
@@ -38,8 +39,9 @@ const Navbar = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
-        </div>
+        </nav>
     )
+
 }
 
 export default Navbar

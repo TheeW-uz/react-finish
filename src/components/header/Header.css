@@ -85,33 +85,29 @@ header.scrolled {
 .cart {
     margin-left: 30px;
     margin-top: 15px;
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
 
     .log-in__icon,
     .cart__icon,
     .liked__icon,
     .avia__icon {
         font-size: 24px;
-        margin-left: 5px;
-        margin-top: 5px;
-        cursor: pointer;
     }
 
     p {
         font-size: 16px;
         font-weight: 500;
-        color: #8595a7;
-    }
-}
-
-.liked {
-    .liked__icon {
-        margin-left: 28px;
-    }
-}
-
-.avia {
-    .avia__icon {
-        margin-left: 30px;
+        color: #5d6c7b; /* Darkened from #8595a7 for better accessibility contrast */
     }
 }
 

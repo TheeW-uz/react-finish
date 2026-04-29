@@ -37,10 +37,11 @@ export default function DiscountDay() {
           <SwiperSlide key={item.id}>
             <Link to={`/product/${item.id}`} className="appleCard">
               <div className="appleCard__image">
-                <img src={item.image} alt={item.title} />
+                <img src={item.image} alt={item.title} loading="lazy" />
                 
                 <button 
                   className="hover-cart-btn"
+                  aria-label={t('cart.add', 'Add to cart')}
                   onClick={(e) => {
                     e.preventDefault();
                     e.stopPropagation();
@@ -50,6 +51,7 @@ export default function DiscountDay() {
                   <FaShoppingCart />
                 </button>
               </div>
+
               <div className="appleCard__body">
                 <div className="appleCard__price-row">
                   <strong>{item.price.toLocaleString()} so'm</strong>

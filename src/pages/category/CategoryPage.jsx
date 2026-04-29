@@ -104,7 +104,7 @@ const CategoryPage = () => {
                             <div key={item.id} className="category-card">
                                 <Link to={`/product/${item.id}`} className="card-link">
                                     <div className="card-image">
-                                        <img src={item.image} alt={item.title} />
+                                        <img src={item.image} alt={item.title} loading="lazy" />
                                         <button 
                                             className="hover-cart-btn"
                                             onClick={(e) => {

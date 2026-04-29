@@ -20,9 +20,12 @@ export const AuthProvider = ({ children }) => {
         localStorage.removeItem('user');
     };
 
+    const value = React.useMemo(() => ({ user, login, logout }), [user]);
+
     return (
-        <AuthContext.Provider value={{ user, login, logout }}>
+        <AuthContext.Provider value={value}>
             {children}
         </AuthContext.Provider>
     );
 };
+

@@ -62,23 +62,26 @@ export const CartProvider = ({ children }) => {
 
   const toggleCart = () => setIsCartOpen(!isCartOpen);
 
-  const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
-  const totalPrice = cart.reduce((total, item) => total + (item.price * item.quantity), 0);
+  const totalItems = React.useMemo(() => cart.reduce((total, item) => total + item.quantity, 0), [cart]);
+  const totalPrice = React.useMemo(() => cart.reduce((total, item) => total + (item.price * item.quantity), 0), [cart]);
+
+  const value = React.useMemo(() => ({
+    cart, 
+    addToCart, 
+    updateQuantity, 
+    removeFromCart, 
+    clearCart, 
+    isCartOpen, 
+    setIsCartOpen,
+    toggleCart,
+    totalItems,
+    totalPrice
+  }), [cart, isCartOpen, totalItems, totalPrice]);
 
   return (
-    <CartContext.Provider value={{ 
-      cart, 
-      addToCart, 
-      updateQuantity, 
-      removeFromCart, 
-      clearCart, 
-      isCartOpen, 
-      setIsCartOpen,
-      toggleCart,
-      totalItems,
-      totalPrice
-    }}>
+    <CartContext.Provider value={value}>
       {children}
     </CartContext.Provider>
   );
 };
+

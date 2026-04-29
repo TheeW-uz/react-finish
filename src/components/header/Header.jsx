@@ -13,9 +13,9 @@ import { FaShoppingCart } from "react-icons/fa";
 import { useCart } from '../../context/CartContext';
 import { useAuth } from '../../context/AuthContext';
 import LoginModal from '../login/LoginModal';
-import UzbekIcon from '../../../public/uzbek-icon.png'
-import RussianIcon from '../../../public/russian-icon.png'
-import EnglishIcon from '../../../public/american-icon.png'
+import UzbekIcon from '/uzbek-icon.png'
+import RussianIcon from '/russian-icon.png'
+import EnglishIcon from '/american-icon.png'
 import NavLink from '../../data/NavLinks.js'
 
 import popularProducts from '../../data/popularProducts'
@@ -28,7 +28,7 @@ import sportTechs from '../../data/sportTechs'
 import laptops from '../../data/laptops'
 import cleaningTechs from '../../data/cleaningTechs'
 
-const allProducts = [
+const getAllProducts = () => [
   ...popularProducts,
   ...appleSection,
   ...discountDay,
@@ -38,7 +38,8 @@ const allProducts = [
   ...sportTechs,
   ...laptops,
   ...cleaningTechs
-]
+];
+
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -58,17 +59,23 @@ const Header = () => {
   const [activeCategory, setActiveCategory] = useState(NavLink[0]);
 
   useEffect(() => {
-    if (searchQuery.trim().length > 1) {
-      const filtered = allProducts.filter(p => 
-        p.title.toLowerCase().includes(searchQuery.toLowerCase())
-      ).slice(0, 8);
-      setSearchResults(filtered);
-      setShowSearch(true);
-    } else {
-      setSearchResults([]);
-      setShowSearch(false);
-    }
+    const handler = setTimeout(() => {
+      if (searchQuery.trim().length > 1) {
+        const products = getAllProducts();
+        const filtered = products.filter(p =>
+          p.title.toLowerCase().includes(searchQuery.toLowerCase())
+        ).slice(0, 8);
+        setSearchResults(filtered);
+        setShowSearch(true);
+      } else {
+        setSearchResults([]);
+        setShowSearch(false);
+      }
+    }, 300);
+
+    return () => clearTimeout(handler);
   }, [searchQuery]);
+
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -86,10 +93,17 @@ const Header = () => {
   };
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setScrolled(window.scrollY > 50);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -99,7 +113,13 @@ const Header = () => {
     <>
       <header className={scrolled ? "header scrolled" : "header"}>
         <Link to="/">
-          <img className='main-logo' src={alifShopLogo} alt="logo" />
+          <img
+            className='main-logo'
+            src={alifShopLogo}
+            alt="alifshop logo"
+            width="170"
+            height="50"
+          />
         </Link>
         <button className='categories-product' popoverTarget='open-catalog'>
           <BiSolidCategoryAlt className='category-icon' />
@@ -107,27 +127,29 @@ const Header = () => {
         </button>
 
         <div className="search-bar" ref={searchRef}>
-          <CiSearch className='search-icon' />
-          <input 
-            className='search-input' 
-            type="text" 
-            placeholder={t('search_placeholder')} 
+          <CiSearch className='search-icon' aria-hidden="true" />
+          <input
+            className='search-input'
+            type="text"
+            placeholder={t('search_placeholder')}
+            aria-label={t('search_placeholder')}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={() => searchQuery.trim().length > 1 && setShowSearch(true)}
           />
-          
+
           {showSearch && (
-            <div className="search-dropdown">
+            <div className="search-dropdown" role="listbox">
               {searchResults.length > 0 ? (
                 searchResults.map(product => (
-                  <Link 
-                    key={product.id} 
-                    to={`/product/${product.id}`} 
+                  <Link
+                    key={product.id}
+                    to={`/product/${product.id}`}
                     className="search-dropdown__item"
+                    role="option"
                     onClick={() => setShowSearch(false)}
                   >
-                    <img src={product.image} alt="" className="search-dropdown__img" />
+                    <img src={product.image} alt={product.title} loading="lazy" className="search-dropdown__img" />
                     <div className="search-dropdown__info">
                       <div className="search-dropdown__title">{product.title}</div>
                       <div className="search-dropdown__price">
@@ -147,10 +169,15 @@ const Header = () => {
 
         {user ? (
           <div className="log-in-wrapper" style={{ position: 'relative' }}>
-            <div className="log-in" onClick={() => setIsProfileOpen(!isProfileOpen)}>
+            <button
+              className="log-in"
+              onClick={() => setIsProfileOpen(!isProfileOpen)}
+              aria-expanded={isProfileOpen}
+              aria-haspopup="true"
+            >
               <FaCircleUser className='log-in__icon' style={{ color: '#FFC845' }} />
               <p className='log-in__text'>{user.name}</p>
-            </div>
+            </button>
             {isProfileOpen && (
               <div className="profile-dropdown">
                 <div className="profile-dropdown__header">
@@ -168,32 +195,40 @@ const Header = () => {
             )}
           </div>
         ) : (
-          <div className="log-in" onClick={() => setIsLoginOpen(true)}>
+          <button className="log-in" onClick={() => setIsLoginOpen(true)} aria-label={t('login')}>
             <FaCircleUser className='log-in__icon' />
             <p className='log-in__text'>{t('login')}</p>
-          </div>
+          </button>
         )}
         <Link to="/saralanganlar" className="liked">
           <FcLike className='liked__icon' />
           <p className='liked__text'>{t('saralanganlar.navbar', 'Favorites')}</p>
         </Link>
-        <div className="avia">
+        <a href="https://www.aviasales.uz/" target="_blank" rel="noopener noreferrer" className="avia">
           <FaPlaneUp className='avia__icon' />
           <p className='avia__text'>{t('avia_tickets')}</p>
-        </div>
-        <div className="cart" onClick={toggleCart}>
+        </a>
+
+        <button className="cart" onClick={toggleCart} aria-label={t('cart')}>
           <div className="cart-icon-wrapper">
             <FaShoppingCart className='cart__icon' />
             {totalItems > 0 && <span className="cart-badge">{totalItems}</span>}
           </div>
           <p className='cart__text'>{t('cart')}</p>
-        </div>
+        </button>
 
-        <select id='language-changer' onChange={handleLanguageChange} value={i18n.language}>
-          <option value="ru"> <img src={RussianIcon} alt="" /> Русский</option>
-          <option value="uz"> <img src={UzbekIcon} alt="" /> O'zb</option>
-          <option value="en"> <img src={EnglishIcon} alt="" /> English</option>
-        </select>
+        <div className="language-selector">
+          <select
+            id='language-changer'
+            onChange={handleLanguageChange}
+            value={i18n.language}
+            aria-label="Select Language"
+          >
+            <option value="ru">Русский</option>
+            <option value="uz">O'zb</option>
+            <option value="en">English</option>
+          </select>
+        </div>
       </header>
 
       <LoginModal isOpen={isLoginOpen} onClose={() => setIsLoginOpen(false)} />
@@ -203,34 +238,35 @@ const Header = () => {
 
           <div className="catalog-sidebar">
             {NavLink.map((item) => (
-                <Link 
-                  to={`/category/${item.title}`} 
-                  className={`catalog-sidebar-item ${activeCategory?.id === item.id ? 'active' : ''}`}
-                  onMouseEnter={() => setActiveCategory(item)}
-                  onClick={() => document.getElementById('open-catalog').togglePopover()}
-                >
-                  <img
-                    className="catalog-item-img"
-                    src={`/nav-product-${((item.id - 1) % 20) + 1}.png`}
-                    alt={item.title}
-                  />
-                  <span className="catalog-item-title">
-                    {t(`navLinks.${item.title}.title`, item.title)}
-                  </span>
-                </Link>
+              <Link
+                to={`/category/${item.title}`}
+                className={`catalog-sidebar-item ${activeCategory?.id === item.id ? 'active' : ''}`}
+                onMouseEnter={() => setActiveCategory(item)}
+                onClick={() => document.getElementById('open-catalog').togglePopover()}
+              >
+                <img
+                  className="catalog-item-img"
+                  src={`/nav-product-${((item.id - 1) % 20) + 1}.png`}
+                  alt={t(`navLinks.${item.title}.title`, item.title)}
+                  loading="lazy"
+                />
+                <span className="catalog-item-title">
+                  {t(`navLinks.${item.title}.title`, item.title)}
+                </span>
+              </Link>
             ))}
           </div>
 
           <div className="catalog-panel">
             {activeCategory && (
               <div className="catalog-panel-content">
-                <h3 className="catalog-panel-heading">
+                <h2 className="catalog-panel-heading">
                   {t(`navLinks.${activeCategory.title}.title`, activeCategory.title)}
-                </h3>
+                </h2>
                 <div className="catalog-panel-groups">
                   {getTranslatedDropdown(activeCategory).map((group, idx) => (
                     <div key={idx} className="catalog-group">
-                      <h4 className="catalog-group-title">{group.title}</h4>
+                      <h3 className="catalog-group-title">{group.title}</h3>
                       <ul className="catalog-group-submenu">
                         {group.submenu.map((sub, i) => (
                           <li key={i} className="catalog-group-subitem">{sub}</li>

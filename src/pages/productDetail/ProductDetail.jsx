@@ -97,10 +97,11 @@ function ProductDetail() {
       <main className="productDetail__container">
         <div className="productDetail__left-card">
           <div className="productDetail__img-container">
-            <img src={activeImage} alt={item.title} />
+            <img src={activeImage} alt={item.title} fetchpriority="high" />
             <button
               className="productDetail__wish-btn"
               onClick={handleWishlistClick}
+              aria-label={isInWishlist(item.id) ? 'Remove from wishlist' : 'Add to wishlist'}
             >
               {isInWishlist(item.id) ? <FaHeart className="filled" /> : <FaRegHeart />}
             </button>
@@ -108,13 +109,14 @@ function ProductDetail() {
           
           <div className="productDetail__gallery">
             {images.map((img, idx) => (
-              <div 
+              <button 
                 key={idx} 
                 className={`gallery-item ${activeImage === img ? 'active' : ''}`}
                 onMouseEnter={() => setActiveImage(img)}
+                aria-label={`View product image ${idx + 1}`}
               >
-                <img src={img} alt="" />
-              </div>
+                <img src={img} alt="" loading="lazy" />
+              </button>
             ))}
           </div>
 
@@ -143,14 +145,15 @@ function ProductDetail() {
 
             <div className="productDetail__month-selector">
               {months.map((m) => (
-                <div
+                <button
                   key={m}
                   className={`productDetail__month-item ${selectedMonth === m ? 'active' : ''}`}
                   onClick={() => setSelectedMonth(m)}
+                  aria-pressed={selectedMonth === m}
                 >
                   <span className="month-num">{m}</span>
                   <span className="month-text">{t('month', 'oy')}</span>
-                </div>
+                </button>
               ))}
             </div>
 
@@ -164,9 +167,9 @@ function ProductDetail() {
             {cartItem ? (
               <div className="productDetail__cart-counter">
                 <div className="counter-controls">
-                  <button onClick={() => handleUpdateQuantity(cartItem.quantity - 1)}>-</button>
+                  <button onClick={() => handleUpdateQuantity(cartItem.quantity - 1)} aria-label="Decrease quantity">-</button>
                   <span>{cartItem.quantity}</span>
-                  <button onClick={() => handleUpdateQuantity(cartItem.quantity + 1)}>+</button>
+                  <button onClick={() => handleUpdateQuantity(cartItem.quantity + 1)} aria-label="Increase quantity">+</button>
                 </div>
                 <button className="cart-btn-added" onClick={() => handleAddToCart()}>
                   {t('add_to_cart', 'Savatga qo\'shish')}

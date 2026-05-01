@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import './discountDay.css';
 
 import { Pagination } from 'swiper/modules';
-import discountDayData from '../../data/discountDay';
+import discountDayData from '../../data/discountDay.js';
 
 export default function DiscountDay() {
   const { t } = useTranslation();

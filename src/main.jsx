@@ -7,7 +7,7 @@ import { CartProvider } from './context/CartContext'
 import { AuthProvider } from './context/AuthContext'
 import App from './App.jsx'
 
-import './i18n';
+import './i18n.js';
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>

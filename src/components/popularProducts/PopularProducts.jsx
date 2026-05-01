@@ -4,7 +4,7 @@ import { FaHeart, FaRegHeart, FaShoppingCart } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 import { useWishlist } from '../../context/WishlistContext'
 import { useCart } from '../../context/CartContext'
-import popularProducts from '../../data/popularProducts'
+import popularProducts from '../../data/popularProducts.js'
 import './PopularProducts.css'
 
 function PopularProducts() {

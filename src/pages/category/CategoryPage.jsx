@@ -8,15 +8,15 @@ import { Link } from 'react-router-dom';
 import { FaShoppingCart } from 'react-icons/fa';
 import { useCart } from '../../context/CartContext';
 
-import popularProducts from '../../data/popularProducts';
-import appleSection from '../../data/appleSection';
-import discountDay from '../../data/discountDay';
-import beauty from '../../data/beauty';
-import autoProducts from '../../data/autoProducts';
-import perfume from '../../data/perfume';
-import sportTechs from '../../data/sportTechs';
-import laptops from '../../data/laptops';
-import cleaningTechs from '../../data/cleaningTechs';
+import popularProducts from '../../data/popularProducts.js';
+import appleSection from '../../data/appleSection.js';
+import discountDay from '../../data/discountDay.js';
+import beauty from '../../data/beauty.js';
+import autoProducts from '../../data/autoProducts.js';
+import perfume from '../../data/perfume.js';
+import sportTechs from '../../data/sportTechs.js';
+import laptops from '../../data/laptops.js';
+import cleaningTechs from '../../data/cleaningTechs.js';
 
 import './CategoryPage.css';
 

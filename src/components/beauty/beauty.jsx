@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import './beauty.css';
 
 import { Pagination } from 'swiper/modules';
-import beautyData from '../../data/beauty';
+import beautyData from '../../data/beauty.js';
 
 export default function Beauty() {
   const { t } = useTranslation();

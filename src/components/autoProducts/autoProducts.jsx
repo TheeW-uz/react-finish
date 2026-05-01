@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import './autoProducts.css';
 
 import { Pagination } from 'swiper/modules';
-import autoProductsData from '../../data/autoProducts';
+import autoProductsData from '../../data/autoProducts.js';
 
 export default function AutoProducts() {
   const { t } = useTranslation();

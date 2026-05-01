@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import './laptops.css';
 
 import { Pagination } from 'swiper/modules';
-import laptopsData from '../../data/laptops';
+import laptopsData from '../../data/laptops.js';
 
 export default function Laptops() {
   const { t } = useTranslation();

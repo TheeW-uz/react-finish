@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import './sportTechs.css';
 
 import { Pagination } from 'swiper/modules';
-import sportTechsData from '../../data/sportTechs';
+import sportTechsData from '../../data/sportTechs.js';
 
 export default function SportTechs() {
   const { t } = useTranslation();

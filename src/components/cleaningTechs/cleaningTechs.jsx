@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import './cleaningTechs.css';
 
 import { Pagination } from 'swiper/modules';
-import cleaningTechsData from '../../data/cleaningTechs';
+import cleaningTechsData from '../../data/cleaningTechs.js';
 
 export default function CleaningTechs() {
   const { t } = useTranslation();

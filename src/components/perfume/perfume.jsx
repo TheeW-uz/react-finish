@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import './perfume.css';
 
 import { Pagination } from 'swiper/modules';
-import perfumeData from '../../data/perfume';
+import perfumeData from '../../data/perfume.js';
 
 export default function Perfume() {
   const { t } = useTranslation();
